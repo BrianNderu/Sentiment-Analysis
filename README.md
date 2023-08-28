@@ -1,5 +1,4 @@
 # Sentimental Analysis
-![moringa_phase4_project](https://github.com/Daniel1999Akama/moringa_phase4_project/assets/127243987/44675d35-58cc-411a-baa7-c3422ebfcd75)
 
 ## Table of Contents
 
@@ -12,9 +11,6 @@
 - Conclusion
 - Recommendation
 - Next Steps
-- Installation
-- Collaborators
-- Repository Structure 
 
 # Business understanding
 In today’s digital age, social media platforms such as Twitter have become powerful sources of real-time customer feedback and opinions. Understanding the sentiment expressed by customers toward specific brands and products is essential for businesses to make informed decisions, enhance customer satisfaction, and maintain a positive brand reputation. 
@@ -23,7 +19,7 @@ The goal of this project aims to develop a sentimental analysis model specifical
 
 # Business Problem Statement
 
-As a consulting firm, Twitter has assigned us the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise.
+Asigned the task of building a model that can rate the sentiment of a Tweet based on its content  that can correctly categorize Twitter sentiment about Apple and Google products into positive, negative, or neutral categories and  gain valuable insights into public perception, that will be used for informed decision-making in business strategies and customer satisfaction enterprise.
 
 
 # Data understanding
@@ -73,10 +69,7 @@ To evaluate the performance of our NLP sentiment analysis model, we conducted th
 2. our MultinomialNb multiclass model achieved an overall accuracy of 65%
 3. our XGboost multiclass model achieved an overall accuracy of 68%
 
-
-![image](https://github.com/Daniel1999Akama/moringa_phase4_project/assets/96378206/158e9d2a-3fe3-4f45-ab69-3831220f3aae)
-
-No emotion towards brand had the highest value count 
+ 
 
 # Findings
 Most of the tweets were directed to no specific brand.
@@ -105,54 +98,8 @@ Customer feedback - The brands can introduce a rating system to accurately captu
 - Limited Dataset Size: The dataset used for sentiment analysis is relatively small, which can limit the model's ability to capture the full complexity of sentiments expressed in text. A larger and more diverse dataset would provide a broader representation of sentiments and improve the model's performance and generalization.
 - Language Ambiguity and Sarcasm Detection: Language can be inherently ambiguous, and detecting sarcasm in text adds an extra layer of complexity. Sarcasm detection is challenging due to the subtleties and nuances involved. Developing robust strategies to handle language ambiguity and detect sarcasm is crucial for accurate sentiment analysis
 
-# Installations
-To install and run this project, follow these steps:
-1. Clone the repository to your local machine using the following command:
-    - git clone https://github.com/Daniel1999Akama/moringa_phase4_project.git
-2. Navigate to the project's root directory:
-    - cd your-repository
-3. Install the project dependencies(For this project we worked with Jupyter notebook, however it can also run on vscode or Google collab:
-    - This command will install all the necessary packages and libraries required for the project to run(this should br run in the terminal(for our case Anaconda).
-    - pip install Jupyter Notebook 
-5. Call the note book in the directory
-    - jupyter notebook
-    - code .. for VS code
-6. Open your web browser and access the application at http://localhost:5000.
-    This is the default URL where the application will be running locally. 
-
-### Collaborators
-feel free  to visit this jupyternotebook and contact below emails
 
 
-Rosemary Nyakio: @nyakio19roseary@gmail.com
-
-Maureen Anduuru: @moesaitia@gmail.com
-
-Daniel Akama: @danielakama23@gmail.com
-
-Leah Katiwa: @katiwaleah26@gmail.com
-
-Lynne Mutwiri: @mutwirilynnek@gmail.com
-
-Brian Nderu: @briannga00@gmail.com
-
-
-
-### Repository Structure: 
-
-├── .gitignore                                              
-
-├── CONTRIBUTING                                            
-
-├── LISENCE.md                                             
-
-|── Phase4_project.ipynb                                   
-
-├── data                                                   
-
-├── README.md   
-
-Web app link:
 https://moringaphase4project.streamlit.app/
 
 ## Project status
